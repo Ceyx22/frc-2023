@@ -14,6 +14,19 @@ package frc.robot;
  */
 public final class Constants {
   public static class OperatorConstants {
-    public static final int kDriverControllerPort = 0;
+    public static final int kLeftJoystick = 0;
+    public static final int kRightJoystick = 1;
+    public static final int kXboxXontroller = 2;
+  }
+
+  public static class PnumaticConstants{
+    public static final int kZero = 0;
+  }
+
+  public static class MotorConstants{
+    public static final int kDriveRightFront = 0;
+    public static final int kDriveRightBack = 0;
+    public static final int kDriveLeftFront = 0;
+    public static final int kDriveLeftBack = 0;
   }
 }
