@@ -2,7 +2,7 @@
 // Open Source Software; you can modify and/or share it under the terms of
 // the WPILib BSD license file in the root directory of this project.
 
-package frc.robot;
+package frc.robot.Util;
 
 /**
  * The Constants class provides a convenient place for teams to hold robot-wide numerical or boolean
@@ -28,5 +28,23 @@ public final class Constants {
     public static final int kDriveRightBack = 0;
     public static final int kDriveLeftFront = 0;
     public static final int kDriveLeftBack = 0;
+
+    //Varibles for Turning on Drivetrain
+    public static double kTurnrateCurve = 0.1;
+    public static double kTurnrateLimit = 0.8;
+
+    //Timeout for Encoders 10 milli
+    public static final int kTimeoutms = 10;
+    
+    //pnuematics on driveTrain
+    public static final int highGear = 0;
+    public static final int lowGear = 1;
+    public static int currentGear = highGear;
   }
+
+  //yes just yes (easier this way)
+  public static final boolean On = true;
+  public static final boolean Off = false;
+
+  
 }
